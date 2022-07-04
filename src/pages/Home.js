@@ -1,5 +1,4 @@
 import React from 'react';
-import CallInfo from '../components/CallInfo';
 import DemoCarousel from '../components/swiper';
 import LinTabs from './home/LinTabs';
 import ProductBj from './home/productBj'
@@ -12,7 +11,7 @@ import ProductBj2 from './home/ProduceBj2';
 export const Home = () => {
   return (
     <>
-      <CallInfo />
+      {/* <CallInfo /> */}
       <DemoCarousel />
       <div class="product-bj-2">
         <ProductBj2 />
