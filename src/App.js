@@ -7,6 +7,7 @@ import { Articles } from './pages/Articles';
 import './output.css';
 import Footer from './components/footer';
 import Nav from './components/nav';
+import ContactUs from './pages/ContactUs';
 
 // const BigGreenHeading = styled.h1`
 //   color: green;
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/articles" element={<Articles />} />
+        <Route path="/contact_us" element={<ContactUs />} />
       </Routes>
       <Footer />
     </div>

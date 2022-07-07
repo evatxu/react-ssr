@@ -1,11 +1,15 @@
 import React from "react"
 import CallInfo from "./CallInfo"
+import { useLocation } from 'react-router-dom'
 
 const Nav = () => {
+  const {pathname} = useLocation();
+  console.log(pathname);
+
   return (<>
     <div className="topnav">
       <div className="hz">
-        <div className="topnav-title">林川精密专业生产SMT钢网,激光钢网厂家,7年间服务客户超3000家,生产超25万张优质钢网</div>
+        <div className="topnav-title">林川精密专业生产SMT钢网,激光钢网厂家,9年间服务客户超3000家,生产超25万张优质钢网</div>
         <div className="topnav-sidebar">
           <ul>
             <li><a href="http://www.xjxsmt.com/" rel="nofollow">中文版</a></li>
@@ -25,8 +29,8 @@ const Nav = () => {
       <div className="hz">
         <div className="mainbav">
           <ul>
-            <li className="memu active">
-              <a href="http://www.xjxsmt.com/" rel="nofollow" title="林川首页">林川首页</a>
+            <li className={`memu ${pathname === '/' ? 'active' : ''}`}>
+              <a href="/" rel="nofollow" title="林川首页">林川首页</a>
             </li>
             <li className="memu ">
               <a href="http://www.xjxsmt.com/products.html" title="SMT钢网">SMT钢网</a>
@@ -68,7 +72,7 @@ const Nav = () => {
             <li className="memu ">
               <a href="http://www.xjxsmt.com/honorary.html" rel="nofollow" title="荣誉资质">荣誉资质</a>
             </li>
-            <li className="memu ">
+            <li className={`memu ${pathname === '/about' ? 'active' : ''}`}>
               <a href="/about" rel="nofollow" title="林川简介">林川简介</a>
               <ul>
                 <li><a href="http://www.xjxsmt.com/about-gsjj.html" rel="nofollow" title="公司简介">公司简介</a></li>

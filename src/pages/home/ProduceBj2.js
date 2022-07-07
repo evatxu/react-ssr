@@ -1,5 +1,12 @@
 import React from "react";
 
+import url1 from '../../images/纳米钢网.png'
+import url2 from '../../images/6370535236150941241111555.png'
+import url3 from '../../images/smt500-375-3.png'
+import url4 from '../../images/超耐用纳米钢网.png'
+import url5 from '../../images/736×736激光钢网.png'
+import url6 from '../../images/印手机屏网点微孔钢网-1.png'
+
 const ProductBj2 = () => {
   return (
     <div class="index_product_bj w-10/12 m-auto">
@@ -30,12 +37,12 @@ const ProductBj2 = () => {
           </div>
           <div class="index-product-right">
             <ul>
-              <li><a title="贴片激光钢网" href="http://www.xjxsmt.com/tpjg.html"><img src="http://www.xjxsmt.com/cut_294_238/Data/xjxsmt/upload/image/20190926/纳米钢网.jpg" alt="贴片激光钢网" /><br />贴片激光钢网</a> </li>
-              <li><a title="LED封装专用钢网" href="http://www.xjxsmt.com/99001.html"><img src="http://www.xjxsmt.com/cut_294_238/Data/xjxsmt/upload/image/20190929/6370535236150941241111555.jpg" alt="LED封装专用钢网" /><br />LED封装专用钢网</a> </li>
-              <li><a title="Mini-LED封装纳米钢网" href="http://www.xjxsmt.com/Mini-LED.html"><img src="http://www.xjxsmt.com/cut_294_238/Data/xjxsmt/upload/image/20200116/smt500-375-3.jpg" alt="Mini-LED封装纳米钢网" /><br />Mini-LED封装纳米钢网</a> </li>
-              <li><a title="电抛光激光钢网" href="http://www.xjxsmt.com/dpjg_51821.html"><img src="http://www.xjxsmt.com/cut_294_238/Data/xjxsmt/upload/image/20190926/超耐用纳米钢网.jpg" alt="电抛光激光钢网" /><br />电抛光激光钢网</a> </li>
-              <li><a title="电抛光smt钢网" href="http://www.xjxsmt.com/dpgw.html"><img src="http://www.xjxsmt.com/cut_294_238/Data/xjxsmt/upload/image/20190926/736×736激光钢网.jpg" alt="电抛光smt钢网" /><br />电抛光smt钢网</a> </li>
-              <li><a title="印手机屏网点微孔钢网" href="http://www.xjxsmt.com/phones.html"><img src="http://www.xjxsmt.com/cut_294_238/Data/xjxsmt/upload/image/20190929/印手机屏网点微孔钢网-1.jpg" alt="印手机屏网点微孔钢网" /><br />印手机屏网点微孔钢网</a> </li>
+              <li><a title="贴片激光钢网" href="http://www.xjxsmt.com/tpjg.html"><img src={url1} alt="贴片激光钢网" /><br />贴片激光钢网</a> </li>
+              <li><a title="LED封装专用钢网" href="http://www.xjxsmt.com/99001.html"><img src={url2} alt="LED封装专用钢网" /><br />LED封装专用钢网</a> </li>
+              <li><a title="Mini-LED封装纳米钢网" href="http://www.xjxsmt.com/Mini-LED.html"><img src={url3} alt="Mini-LED封装纳米钢网" /><br />Mini-LED封装纳米钢网</a> </li>
+              <li><a title="电抛光激光钢网" href="http://www.xjxsmt.com/dpjg_51821.html"><img src={url4} alt="电抛光激光钢网" /><br />电抛光激光钢网</a> </li>
+              <li><a title="电抛光smt钢网" href="http://www.xjxsmt.com/dpgw.html"><img src={url5} alt="电抛光smt钢网" /><br />电抛光smt钢网</a> </li>
+              <li><a title="印手机屏网点微孔钢网" href="http://www.xjxsmt.com/phones.html"><img src={url6} alt="印手机屏网点微孔钢网" /><br />印手机屏网点微孔钢网</a> </li>
             </ul>
           </div>
         </div>

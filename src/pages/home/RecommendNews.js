@@ -1,5 +1,7 @@
 import React from "react";
 
+import url1 from '../../images/srgs.jpeg'
+
 const RecommendNews = () => {
   return (
     <div className="hza">
@@ -12,7 +14,7 @@ const RecommendNews = () => {
         <div className="index-news-left">
 
           <div className="index-news-bottom">
-            <div className="index-news-left-gsxw-pic"><img src="http://www.xjxsmt.com/Data/xjxsmt/upload/image/20191008/srgs.jpg" alt="smt阶梯钢网在生产中有哪些优点" /></div>
+            <div className="index-news-left-gsxw-pic"><img src={url1} alt="smt阶梯钢网在生产中有哪些优点" /></div>
             <div className="index-news-left-gsxw-xw">
               <div className="index-news-left-gsxw-title"> <a href="http://www.xjxsmt.com/56108.html">smt阶梯钢网在生产中有哪些优点</a></div>
               <div className="index-news-left-gsxw-nr">smt阶梯钢网通过使用精准的减薄工艺，从而来得出多种厚度的钢片材料并应用抛光模板等制作工艺制作而成的模板，而制作出来的此类钢网因能很好的适应企业的生产需求，所以深受人们的喜爱，那么，smt阶梯钢网在我……</div>
