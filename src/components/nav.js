@@ -54,8 +54,8 @@ const Nav = () => {
             <li className="memu ">
               <a href="http://www.xjxsmt.com/products-lm.html" title="纳米钢网">纳米钢网</a>
             </li>
-            <li className="memu ">
-              <a href="http://www.xjxsmt.com/concept.html" rel="nofollow" title="开孔方案">开孔方案</a>
+            <li className={`memu ${pathname === '/kaikong' ? 'active' : ''}`}>
+              <a href="/kaikong" rel="nofollow" title="开孔方案">开孔方案</a>
             </li>
             <li className="memu ">
               <a href="http://www.xjxsmt.com/xjsb.html" rel="nofollow" title="厂家设备">厂家设备</a>

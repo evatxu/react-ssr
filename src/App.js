@@ -8,6 +8,7 @@ import './output.css';
 import Footer from './components/footer';
 import Nav from './components/nav';
 import ContactUs from './pages/ContactUs';
+import KaiKong from './pages/kaikong';
 
 // const BigGreenHeading = styled.h1`
 //   color: green;
@@ -26,6 +27,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/contact_us" element={<ContactUs />} />
+        <Route path="/kaikong" element={<KaiKong />} />
       </Routes>
       <Footer />
     </div>

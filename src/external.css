@@ -409,12 +409,12 @@
 .menu_body a:hover { text-decoration: none; color: #e60012; }
 
 .cjln-hz-sj{display:none;}
-/* .cjln-hz{background:url(../images/ln.png) no-repeat top center;overflow:hidden;} */
+.cjln-hz{background:url(./images/ln.png) no-repeat top center;overflow:hidden;}
 .cjln-pic{float:left;margin:8px 13px 0 0; }
 .cjln-left{width:41%;float:left;margin-top:140px;}
 .cjln-left li{color:#007cd4;font-size:16px;margin-bottom:30px;}
 .cjln-center{width:18%;margin-top:145px ;float:left;}
-/* .cjln-center li{background:url(../images/ln2.png)no-repeat center;font-size:18px;color:#fff;text-align:center;line-height:50px;font-weight:bold;margin-bottom:22px;} */
+.cjln-center li{background:url(./images/ln2.png)no-repeat center;font-size:18px;color:#fff;text-align:center;line-height:50px;font-weight:bold;margin-bottom:22px;}
 
 .cjln-right{width:38%;float:right;margin-top:140px;}
 .cjln-right li{font-size:16px;margin-bottom:20px;color:#666;}
