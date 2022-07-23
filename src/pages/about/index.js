@@ -1,10 +1,9 @@
 import React from 'react'
-import DemoCarousel from '../components/swiper'
-
+import img_about from '../../images/about.jpeg';
 export const About = () => {
   return (
     <div>
-      <DemoCarousel />
+      <div class="ny-banner"><img src={img_about} alt='联系林川' /></div>
       <div class="about-menu-hz">
         <div class="hz">
           <div class="ny_dh_bj">

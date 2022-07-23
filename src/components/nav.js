@@ -32,8 +32,8 @@ const Nav = () => {
             <li className={`memu ${pathname === '/' ? 'active' : ''}`}>
               <a href="/" rel="nofollow" title="林川首页">林川首页</a>
             </li>
-            <li className="memu ">
-              <a href="http://www.xjxsmt.com/products.html" title="SMT钢网">SMT钢网</a>
+            <li className={`memu ${pathname === '/smt-stencil' ? 'active' : ''}`}>
+              <a href="/smt-stencil" title="SMT钢网">SMT钢网</a>
               <ul style={{ display: 'none' }}>
                 <li><a href="http://www.xjxsmt.com/products-jg.html" title="激光钢网">激光钢网</a></li>
                 <li><a href="http://www.xjxsmt.com/products-lm.html" title="纳米钢网">纳米钢网</a></li>
@@ -48,17 +48,17 @@ const Nav = () => {
                 <li><a href="http://www.xjxsmt.com/process-etching.html" title="蚀刻加工">蚀刻加工</a></li>
               </ul>
             </li>
-            <li className="memu ">
-              <a href="http://www.xjxsmt.com/products-jg.html" title="激光钢网">激光钢网</a>
+            <li className={`memu ${pathname === '/smt-laser' ? 'active' : ''}`}>
+              <a href="/smt-laser" title="激光钢网">激光钢网</a>
             </li>
-            <li className="memu ">
-              <a href="http://www.xjxsmt.com/products-lm.html" title="纳米钢网">纳米钢网</a>
+            <li className={`memu ${pathname === '/smt-nano' ? 'active' : ''}`}>
+              <a href="/smt-nano" title="纳米钢网">纳米钢网</a>
             </li>
             <li className={`memu ${pathname === '/kaikong' ? 'active' : ''}`}>
               <a href="/kaikong" rel="nofollow" title="开孔方案">开孔方案</a>
             </li>
-            <li className="memu ">
-              <a href="http://www.xjxsmt.com/xjsb.html" rel="nofollow" title="厂家设备">厂家设备</a>
+            <li className={`memu ${pathname === '/factory-equipment' ? 'active' : ''}`}>
+              <a href="/factory-equipment" rel="nofollow" title="厂家设备">厂家设备</a>
               <ul style={{ display: 'none' }}>
                 <li><a href="http://www.xjxsmt.com/xjsb-gc.html" rel="nofollow" title="工程软件设备">工程软件设备</a></li>
                 <li><a href="http://www.xjxsmt.com/xjsb-qg.html" rel="nofollow" title="切割设备">切割设备</a></li>
@@ -66,11 +66,11 @@ const Nav = () => {
                 <li><a href="http://www.xjxsmt.com/xjsb-jc.html" rel="nofollow" title="检测设备">检测设备</a></li>
               </ul>
             </li>
-            <li className="memu ">
-              <a href="http://www.xjxsmt.com/khmy.html" rel="nofollow" title="客户评价">客户评价</a>
+            <li className={`memu ${pathname === '/customer-evalution' ? 'active' : ''}`}>
+              <a href="/customer-evalution" rel="nofollow" title="客户评价">客户评价</a>
             </li>
-            <li className="memu ">
-              <a href="http://www.xjxsmt.com/honorary.html" rel="nofollow" title="荣誉资质">荣誉资质</a>
+            <li className={`memu ${pathname === '/honorary-certificate' ? 'active' : ''}`}>
+              <a href="/honorary-certificate" rel="nofollow" title="荣誉资质">荣誉资质</a>
             </li>
             <li className={`memu ${pathname === '/about' ? 'active' : ''}`}>
               <a href="/about" rel="nofollow" title="林川简介">林川简介</a>
@@ -79,8 +79,8 @@ const Nav = () => {
                 <li><a href="http://www.xjxsmt.com/about-hzhb.html" rel="nofollow" title="合作伙伴">合作伙伴</a></li>
               </ul>
             </li>
-            <li className="memu ">
-              <a href="http://www.xjxsmt.com/contact.html" rel="nofollow" title="联系林川">联系林川</a>
+            <li className={`memu ${pathname === '/contact-lin' ? 'active' : ''}`}>
+              <a href="contact-lin" rel="nofollow" title="联系林川">联系林川</a>
               <ul>
                 <li><a href="http://www.xjxsmt.com/contact-fs.html" rel="nofollow" title="联系方式">联系方式</a></li>
                 <li><a href="http://www.xjxsmt.com/feedback.html" title="在线留言">在线留言</a></li>
