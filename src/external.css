@@ -9,7 +9,11 @@
 
 
 .topnav { background: #cccccc45; width: 100%; line-height: 32px; height: 32px; }
-.topnav-title { float: left; width: 60%; font-size: 14px; color: #666; }
+.topnav-title { float: left; width: 60%; font-size: 14px; color: #666; white-space: nowrap;
+
+                text-overflow: ellipsis;
+                overflow: hidden;
+                -o-text-overflow:ellipsis; }
 .topnav-sidebar { float: right; color: #666; }
 .topnav-sidebar li { text-align: center; float: left; line-height: 33px; }
 .topnav-sidebar a { padding: 0 8px; font-size: 14px; color: #666; }
@@ -25,11 +29,15 @@
 
 
 .nav { width: 100%; background: #0076cb; float: left; height: 51px; position: sticky; top: 0; z-index: 10000; }
-.mainbav ul { overflow: hidden; }
-.mainbav li { float: left; position: relative;}
-.mainbav li a { display:block; color: #fff; font-size: 15px;  padding: 0 14px; }
-.mainbav .memu { float: left; line-height: 51px; height: 51px; text-align: center; }
-.mainbav .memu:hover, .mainbav .memu.active { color: #333; display: block; background: #fa7001; }
+.mainbav ul { overflow: hidden; overflow-x: auto; white-space: nowrap; }
+.mainbav ul::-webkit-scrollbar {
+	/*隐藏滚动条*/
+	display: none;
+}
+.mainbav li { position: relative; overflow: auto;}
+.mainbav li a { display: inline-block; color: #fff; font-size: 15px;  padding: 0 14px; }
+.mainbav .memu { line-height: 51px; height: 51px; text-align: center; display: inline-block; }
+.mainbav .memu:hover, .mainbav .memu.active { color: #333; display: inline-block; background: #fa7001; }
 .mainbav .memu:hover a, .mainbav .memu.active a { color: #fff; }
 .mainbav ul li ul { display: none; position: absolute; width: 165px; left: 0; top: 51px; z-index: 999999; background: #007ed9; }
 .mainbav ul li ul li { float: none; border-right: none; padding: 0; line-height: 40px; border-bottom: 1px solid #0384e1; position: relative; text-align: left; }
@@ -387,7 +395,7 @@
 .news-hz:hover { transform: translateY(-6px); -webkit-transform: translateY(-6px); }
 .news-rq { text-align: center; width: 163px; margin: 0 auto; font-size: 20px; color: #999; }
 .rqsz { font-size: 70px; line-height: 70px; }
-.news-centent { width: 100%; float: left; color: #666; margin-bototm: 15px; }
+.news-centent { width: 100%; float: left; color: #666; margin-bottom: 15px; }
 .news-centent-title { margin-bottom: 10px; }
 .news-centent-title a { font-size: 20px; }
 .news-nr { margin-top: 10px; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 15px; }
@@ -401,7 +409,7 @@
 
 .soka { width: 40%; border: 1px solid #D8D8D8; line-height: 40px; margin-bottom: 10px; padding-left: 1%; color: #CCCCCC; font-size: 15px; font-family: "Microsoft YaHei", verdant, tahoma; }
 .sokb { border: 1px solid #D8D8D8; line-height: 35px; margin-bottom: 15px; padding-left: 1%; color: #CCCCCC; font-size: 15px; font-family: "Microsoft YaHei", verdant, tahoma;  width: 96%; }
-.tj { width: 20%; border: 1px solid #0089e1; line-height: 45px; text-algin: center; color: #fff; background-color: #0089e1; cursor: pointer; font-family: Arial, Microsoft YaHei; font-size: 16px; }
+.tj { width: 20%; border: 1px solid #0089e1; line-height: 45px; text-align: center; color: #fff; background-color: #0089e1; cursor: pointer; font-family: Arial, Microsoft YaHei; font-size: 16px; }
 /* .menu_head { width: 232px; height: 45px; line-height: 45px; padding-left: 10px; color: #525252; cursor: pointer; border: 1px solid #e1e1e1; position: relative; margin: 0px; font-weight: bold; background: #f2f2f2 url(../images/product_left.png) center right no-repeat; } */
 /* .menu_list .current { background: #f1f1f1 url(../images/product_down.png) center right no-repeat; } */
 .menu_body { width: 242px; height: auto; overflow: hidden; line-height: 38px; border: 1px solid #e1e1e1; border-top: 0px; border-bottom: 0px; }

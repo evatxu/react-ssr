@@ -17,14 +17,12 @@ export default function CallInfo() {
           <div className="gg"> 专注为客户提升直通率,降低成本</div>
         </div>
         <div className="fr fw-hz">
-          <div className="tel-title">
-            {" "}
-            0755-29749682
-            <br />
-            18928403435{" "}
-          </div>
           <div className="top-rz-pic">
-            <img src={url2} alt="smt" />{" "}
+            <img src={url2} alt="smt" />
+          </div>
+          <div className="tel-title">
+            <div>0755-29749682</div>
+            <div>18928403435</div>
           </div>
         </div>
       </div>

@@ -6,6 +6,8 @@
 
 .call-info {
   overflow: hidden;
+  display: flex;
+  text-align: left;
 }
 
 .call-info .logo {
@@ -38,17 +40,16 @@
 .App .call-info .fw-hz {
   margin-top: 30px;
   overflow: hidden;
+  display: flex;
 }
 
 .App .call-info .top-rz-pic {
   margin-top: 14px;
   margin-right: 8px;
-  float: right;
 }
 .App .call-info .tel-title {
-  font-size: 26px;
-  line-height: 32px;
-  float: right;
+  font-size: 24px;
+  flex-wrap: wrap;
   color: #fa7001;
 }
 
